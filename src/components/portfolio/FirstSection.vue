@@ -8,15 +8,11 @@
 
       <div class="grid-container">
         <div class="left-image-container">
-          <img class="left-img" src="../../assets/portfolio/firstSection/left-img.png" alt="Left image" />
+          <img class="image-cover" src="../../assets/portfolio/firstSection/left-img.png" alt="Left image" />
         </div>
 
         <div class="top-right-image-container">
-          <img
-            class="top-right-img"
-            src="../../assets/portfolio/firstSection/right-top-img.png"
-            alt="Top right image"
-          />
+          <img class="image-cover" src="../../assets/portfolio/firstSection/right-top-img.png" alt="Top right image" />
         </div>
 
         <div class="bottom-right-image-container">
@@ -39,6 +35,8 @@
 <script setup></script>
 
 <style scoped>
+@import '@/assets/global.css';
+
 section {
   margin-top: 48px;
 
@@ -60,22 +58,10 @@ section {
     .left-image-container {
       grid-row: 1 / 3;
       width: 455px;
-
-      .left-img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
     }
 
     .top-right-image-container {
       height: 413px;
-
-      .top-right-img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
     }
 
     .bottom-right-image-container {

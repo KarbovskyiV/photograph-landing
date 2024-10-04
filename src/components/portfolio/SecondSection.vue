@@ -8,12 +8,12 @@
 
       <div class="grid-container">
         <div class="left-top-image-container">
-          <img class="left-top-img" src="../../assets/portfolio/secondSection/left-top-img.png" alt="left top image" />
+          <img class="image-cover" src="../../assets/portfolio/secondSection/left-top-img.png" alt="left top image" />
         </div>
 
         <div class="left-bottom-image-container">
           <img
-            class="left-bottom-img"
+            class="image-cover"
             src="../../assets/portfolio/secondSection/left-bottom-img.png"
             alt="Left bottom image"
           />
@@ -34,6 +34,8 @@
 <script setup></script>
 
 <style scoped>
+@import '@/assets/global.css';
+
 section {
   margin-top: 64px;
 
@@ -55,24 +57,12 @@ section {
     .left-top-image-container {
       width: 649px;
       height: 413px;
-
-      .left-top-img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
     }
 
     .left-bottom-image-container {
       display: flex;
       gap: 25px;
       height: 470px;
-
-      .left-bottom-img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
 
       .left-bottom-text {
         font-family: 'Montserrat';

@@ -4,7 +4,7 @@
 
     <section class="d-flex">
       <div class="image-container">
-        <img class="about-me-img" src="../assets/aboutMe/about-me.png" alt="Image" />
+        <img class="image-cover" src="../assets/aboutMe/about-me.png" alt="Image" />
       </div>
       <div class="text-container">
         <div class="about-me-text">
@@ -20,11 +20,7 @@
           <p class="description">Prepare to be enchanted, for your story awaits to be unveiled.</p>
         </div>
         <div class="image-container-second">
-          <img
-            class="half-open-red-peony-img"
-            src="../assets/aboutMe/half-open-red-peony.png"
-            alt="Half open red peony"
-          />
+          <img class="image-cover" src="../assets/aboutMe/half-open-red-peony.png" alt="Half open red peony" />
         </div>
       </div>
     </section>
@@ -36,6 +32,8 @@ import BaseHeader from '@/components/headers/BaseHeader.vue';
 </script>
 
 <style scoped>
+@import '@/assets/global.css';
+
 .about-me-container {
   display: flex;
   align-items: center;
@@ -49,12 +47,6 @@ import BaseHeader from '@/components/headers/BaseHeader.vue';
       width: 455px;
       height: 479px;
       margin-right: 216px;
-
-      .about-me-img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
     }
 
     .text-container {
@@ -76,12 +68,6 @@ import BaseHeader from '@/components/headers/BaseHeader.vue';
         position: absolute;
         bottom: 0;
         right: 0;
-
-        .half-open-red-peony-img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
       }
     }
   }
