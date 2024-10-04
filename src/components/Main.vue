@@ -1,20 +1,27 @@
 <template>
-  <Header />
-  <div class="center-container">
-    <div class="image-container">
-      <img class="hero-img" src="../assets/hero.png" alt="Hero" />
+  <div>
+    <div class="base-header">
+      <div class="header-container">
+        <Header />
+        <div class="image-container">
+          <img class="hero-img" src="../assets/hero.png" alt="Hero" />
 
-      <div class="text-over-hero-img">
-        <span class="h-1">Hello, I’m</span>
-        <span class="name">Victoria Zozulya</span>
-        <span class="body-right">Professional <br> photographer in <br> fantasy style</span>
+          <div>
+            <span class="h-1">Hello, I’m</span>
+            <span class="name">Victoria Zozulya</span>
+            <span class="body-right"
+              >Professional <br />
+              photographer in <br />
+              fantasy style</span
+            >
+          </div>
+        </div>
+
+        <img class="flowers-img" src="../assets/flowers.png" alt="Flowers" />
+        <div class="view-button">
+          <span class="view-text">View portfolio</span>
+        </div>
       </div>
-    </div>
-
-    <img class="flowers-img" src="../assets/flowers.png" alt="Flowers" />
-
-    <div class="view-button">
-      <span class="view-text">View portfolio</span>
     </div>
 
     <AboutMe />
@@ -27,33 +34,37 @@ import AboutMe from './AboutMe.vue'
 </script>
 
 <style scoped>
-.center-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.base-header {
+  margin-top: 48px;
 
-  .image-container {
-    width: 552px;
-    height: 617px;
-    overflow: hidden;
+  .header-container {
+    width: 1440px;
+    height: 857px;
+    margin: 0 auto;
+    position: relative;
 
-    .hero-img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+    .image-container {
+      width: 622px;
+      height: 679px;
+      margin-top: 22px;
+      margin-left: 409px;
+
+      .hero-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
     }
-  }
 
-  .flowers-img {
-    position: absolute;
-    width: 324px;
-    height: 385px;
-    left: 0;
-    top: 498px;
-  }
+    .flowers-img {
+      position: absolute;
+      width: 324px;
+      height: 385px;
+      left: 0;
+      top: 450px;
+      margin-bottom: 22px;
+    }
 
-  .text-over-hero-img {
     .h-1 {
       position: absolute;
       top: 268px;
@@ -65,14 +76,14 @@ import AboutMe from './AboutMe.vue'
     .name {
       position: absolute;
       top: 427px;
-      right: 139px;
+      right: 156px;
       font-size: 96px;
       line-height: 144px;
     }
 
     .body-right {
       position: absolute;
-      top: 295px;
+      top: 298px;
       right: 157px;
       font-family: 'Montserrat';
       font-size: 16px;
@@ -84,6 +95,7 @@ import AboutMe from './AboutMe.vue'
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 592px;
     width: 256px;
     height: 56px;
     margin-top: 95px;

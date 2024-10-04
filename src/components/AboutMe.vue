@@ -36,8 +36,10 @@ import BaseHeader from '@/components/Headers/BaseHeader.vue'
 
 <style scoped>
 .about-me-container {
-  width: 1126px;
-  height: 647px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
   margin-top: 120px;
 
@@ -47,6 +49,7 @@ import BaseHeader from '@/components/Headers/BaseHeader.vue'
     .image-container {
       width: 455px;
       height: 479px;
+      margin-right: 216px;
 
       .about-me-img {
         width: 100%;
