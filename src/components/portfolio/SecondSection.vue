@@ -8,11 +8,7 @@
 
       <div class="grid-container">
         <div class="left-top-image-container">
-          <img
-            class="left-top-img"
-            src="../../assets/portfolio/secondSection/left-top-img.png"
-            alt="left top image"
-          />
+          <img class="left-top-img" src="../../assets/portfolio/secondSection/left-top-img.png" alt="left top image" />
         </div>
 
         <div class="left-bottom-image-container">
@@ -22,17 +18,13 @@
             alt="Left bottom image"
           />
           <div class="left-bottom-text">
-            From the initial spark of inspiration to the final, stunning image, I will guide you
-            through a tailored experience designed to reflect your individuality and style.
+            From the initial spark of inspiration to the final, stunning image, I will guide you through a tailored
+            experience designed to reflect your individuality and style.
           </div>
         </div>
 
         <div class="right-image-container">
-          <img
-            class="right-img"
-            src="../../assets/portfolio/secondSection/right-img.png"
-            alt="Right image"
-          />
+          <img class="right-img" src="../../assets/portfolio/secondSection/right-img.png" alt="Right image" />
         </div>
       </div>
     </section>

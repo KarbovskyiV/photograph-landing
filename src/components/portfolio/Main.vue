@@ -10,8 +10,8 @@
 <script setup>
 import BaseHeader from '@/components/headers/BaseHeader.vue';
 import FirstSection from '@/components/portfolio/FirstSection.vue';
-import SecondSection from '@/components/portfolio/SecondSection.vue'
-import ThirdSection from '@/components/portfolio/ThirdSection.vue'
+import SecondSection from '@/components/portfolio/SecondSection.vue';
+import ThirdSection from '@/components/portfolio/ThirdSection.vue';
 </script>
 
 <style scoped>

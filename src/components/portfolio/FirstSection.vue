@@ -26,9 +26,9 @@
             alt="Bottom right image"
           />
           <div class="bottom-right-text">
-            Each session is a journey where we transform your unique essence into a work of art.
-            Whether you wish to embody a mythical hero, a whimsical creature, or a timeless legend,
-            I craft bespoke portraits that capture your true spirit with a touch of enchantment
+            Each session is a journey where we transform your unique essence into a work of art. Whether you wish to
+            embody a mythical hero, a whimsical creature, or a timeless legend, I craft bespoke portraits that capture
+            your true spirit with a touch of enchantment
           </div>
         </div>
       </div>

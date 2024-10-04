@@ -9,13 +9,13 @@
       <div class="text-container">
         <div class="about-me-text">
           <p class="description">
-            I am Victoria, a sorceress of light and shadow, weaving dreams into reality through the
-            lens of my enchanted camera. In a realm where imagination and reality intertwine, I
-            capture moments that sparkle with magic and wonder.
+            I am Victoria, a sorceress of light and shadow, weaving dreams into reality through the lens of my enchanted
+            camera. In a realm where imagination and reality intertwine, I capture moments that sparkle with magic and
+            wonder.
           </p>
           <p class="description">
-            Each click of my camera opens a portal to fantastical worlds, where every portrait tells
-            a story and every scene becomes a legend.
+            Each click of my camera opens a portal to fantastical worlds, where every portrait tells a story and every
+            scene becomes a legend.
           </p>
           <p class="description">Prepare to be enchanted, for your story awaits to be unveiled.</p>
         </div>
