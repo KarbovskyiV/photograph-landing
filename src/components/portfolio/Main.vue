@@ -1,15 +1,17 @@
 <template>
   <div class="portfolio-container">
     <BaseHeader name="Portfolio" />
-    <Portraits />
-    <PersonalPhotoShoot />
+    <FirstSection />
+    <SecondSection />
+    <ThirdSection />
   </div>
 </template>
 
 <script setup>
 import BaseHeader from '@/components/headers/BaseHeader.vue';
-import Portraits from '@/components/portfolio/FirstSection.vue';
-import PersonalPhotoShoot from '@/components/portfolio/SecondSection.vue'
+import FirstSection from '@/components/portfolio/FirstSection.vue';
+import SecondSection from '@/components/portfolio/SecondSection.vue'
+import ThirdSection from '@/components/portfolio/ThirdSection.vue'
 </script>
 
 <style scoped>

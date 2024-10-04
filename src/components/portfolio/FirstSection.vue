@@ -14,7 +14,7 @@
         <div class="top-right-image-container">
           <img
             class="top-right-img"
-            src="../../assets/portfolio/firstSection/top-right-img.png"
+            src="../../assets/portfolio/firstSection/right-top-img.png"
             alt="Top right image"
           />
         </div>
@@ -22,7 +22,7 @@
         <div class="bottom-right-image-container">
           <img
             class="bottom-right-img"
-            src="../../assets/portfolio/firstSection/bottom-right-img.png"
+            src="../../assets/portfolio/firstSection/right-bottom-img.png"
             alt="Bottom right image"
           />
           <div class="bottom-right-text">
