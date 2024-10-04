@@ -1,26 +1,24 @@
 <template>
   <div>
-    <div class="base-header">
-      <div class="header-container">
-        <Header />
-        <div class="image-container">
-          <img class="hero-img" src="../assets/header/hero.png" alt="Hero" />
+    <div class="header-container">
+      <Header />
+      <div class="image-container">
+        <img class="hero-img" src="../assets/header/hero.png" alt="Hero" />
 
-          <div>
-            <span class="h-1">Hello, I’m</span>
-            <span class="name">Victoria Zozulya</span>
-            <span class="body-right"
-              >Professional <br />
-              photographer in <br />
-              fantasy style</span
-            >
-          </div>
+        <div>
+          <span class="h-1">Hello, I’m</span>
+          <span class="name">Victoria Zozulya</span>
+          <span class="body-right"
+            >Professional <br />
+            photographer in <br />
+            fantasy style</span
+          >
         </div>
+      </div>
 
-        <img class="flowers-img" src="../assets/header/flowers.png" alt="Flowers" />
-        <div class="view-button">
-          <span class="view-text">View portfolio</span>
-        </div>
+      <img class="flowers-img" src="../assets/header/flowers.png" alt="Flowers" />
+      <div class="view-button">
+        <span class="view-text">View portfolio</span>
       </div>
     </div>
 
@@ -36,79 +34,75 @@ import Portfolio from './portfolio/Main.vue';
 </script>
 
 <style scoped>
-.base-header {
-  margin-top: 48px;
+.header-container {
+  width: 1440px;
+  height: 857px;
+  margin: 0 auto;
+  position: relative;
 
-  .header-container {
-    width: 1440px;
-    height: 857px;
-    margin: 0 auto;
-    position: relative;
+  .image-container {
+    width: 622px;
+    height: 679px;
+    margin-top: 22px;
+    margin-left: 409px;
 
-    .image-container {
-      width: 622px;
-      height: 679px;
-      margin-top: 22px;
-      margin-left: 409px;
-
-      .hero-img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-    }
-
-    .flowers-img {
-      position: absolute;
-      width: 324px;
-      height: 385px;
-      left: 0;
-      top: 450px;
-      margin-bottom: 22px;
-    }
-
-    .h-1 {
-      position: absolute;
-      top: 268px;
-      left: 156px;
-      font-size: 96px;
-      line-height: 144px;
-    }
-
-    .name {
-      position: absolute;
-      top: 427px;
-      right: 156px;
-      font-size: 96px;
-      line-height: 144px;
-    }
-
-    .body-right {
-      position: absolute;
-      top: 298px;
-      right: 157px;
-      font-family: 'Montserrat';
-      font-size: 16px;
-      line-height: 24px;
+    .hero-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
 
-  .view-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 592px;
-    width: 256px;
-    height: 56px;
-    margin-top: 95px;
-    border: 1px solid #e5e1d2;
-    cursor: pointer;
+  .flowers-img {
+    position: absolute;
+    width: 324px;
+    height: 385px;
+    left: 0;
+    top: 450px;
+    margin-bottom: 22px;
+  }
 
-    .view-text {
-      font-family: 'Montserrat';
-      font-size: 16px;
-      line-height: 24px;
-    }
+  .h-1 {
+    position: absolute;
+    top: 268px;
+    left: 156px;
+    font-size: 96px;
+    line-height: 144px;
+  }
+
+  .name {
+    position: absolute;
+    top: 427px;
+    right: 156px;
+    font-size: 96px;
+    line-height: 144px;
+  }
+
+  .body-right {
+    position: absolute;
+    top: 298px;
+    right: 157px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.view-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 592px;
+  width: 256px;
+  height: 56px;
+  margin-top: 95px;
+  border: 1px solid #e5e1d2;
+  cursor: pointer;
+
+  .view-text {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 </style>
