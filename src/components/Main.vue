@@ -30,9 +30,9 @@
 </template>
 
 <script setup>
-import Header from './Header.vue'
-import AboutMe from './AboutMe.vue'
-import Portfolio from './portfolio/Main.vue'
+import Header from './Header.vue';
+import AboutMe from './AboutMe.vue';
+import Portfolio from './portfolio/Main.vue';
 </script>
 
 <style scoped>

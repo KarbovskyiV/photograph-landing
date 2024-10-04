@@ -32,7 +32,7 @@
 </template>
 
 <script setup>
-import BaseHeader from '@/components/headers/BaseHeader.vue'
+import BaseHeader from '@/components/headers/BaseHeader.vue';
 </script>
 
 <style scoped>

@@ -6,8 +6,8 @@
 </template>
 
 <script setup>
-import BaseHeader from '@/components/headers/BaseHeader.vue'
-import Portraits from '@/components/portfolio/Portraits.vue'
+import BaseHeader from '@/components/headers/BaseHeader.vue';
+import Portraits from '@/components/portfolio/Portraits.vue';
 </script>
 
 <style scoped>

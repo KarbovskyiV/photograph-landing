@@ -7,12 +7,12 @@
 </template>
 
 <script setup>
-import DecorLeft from '@/components/icons/DecorLeft.vue'
-import DecorRight from '@/components/icons/DecorRight.vue'
+import DecorLeft from '@/components/icons/DecorLeft.vue';
+import DecorRight from '@/components/icons/DecorRight.vue';
 
 defineProps({
   name: String
-})
+});
 </script>
 
 <style scoped>
