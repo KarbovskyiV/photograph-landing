@@ -1,9 +1,10 @@
 <template>
   <div class="about-me-container">
     <BaseHeader name="About Me" />
+
     <section class="d-flex justify-content-between">
       <div class="image-container">
-        <img class="about-me-img" src="../assets/about-me.png" alt="Image" />
+        <img class="about-me-img" src="../assets/aboutMe/about-me.png" alt="Image" />
       </div>
       <div class="text-container">
         <div class="about-me-text">
@@ -21,7 +22,7 @@
         <div class="image-container-second">
           <img
             class="half-open-red-peony-img"
-            src="../assets/half-open-red-peony.png"
+            src="../assets/aboutMe/half-open-red-peony.png"
             alt="Half open red peony"
           />
         </div>
@@ -31,7 +32,7 @@
 </template>
 
 <script setup>
-import BaseHeader from '@/components/Headers/BaseHeader.vue'
+import BaseHeader from '@/components/headers/BaseHeader.vue'
 </script>
 
 <style scoped>

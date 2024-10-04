@@ -4,7 +4,7 @@
       <div class="header-container">
         <Header />
         <div class="image-container">
-          <img class="hero-img" src="../assets/hero.png" alt="Hero" />
+          <img class="hero-img" src="../assets/header/hero.png" alt="Hero" />
 
           <div>
             <span class="h-1">Hello, I’m</span>
@@ -17,7 +17,7 @@
           </div>
         </div>
 
-        <img class="flowers-img" src="../assets/flowers.png" alt="Flowers" />
+        <img class="flowers-img" src="../assets/header/flowers.png" alt="Flowers" />
         <div class="view-button">
           <span class="view-text">View portfolio</span>
         </div>
@@ -25,12 +25,14 @@
     </div>
 
     <AboutMe />
+    <Portfolio />
   </div>
 </template>
 
 <script setup>
-import Header from './Header.vue'
-import AboutMe from './AboutMe.vue'
+import Header from './Header.vue';
+import AboutMe from './AboutMe.vue';
+import Portfolio from './portfolio/Main.vue';
 </script>
 
 <style scoped>
