@@ -2,7 +2,7 @@
   <div class="about-me-container">
     <BaseHeader name="About Me" />
 
-    <section class="d-flex justify-content-between">
+    <section class="d-flex">
       <div class="image-container">
         <img class="about-me-img" src="../assets/aboutMe/about-me.png" alt="Image" />
       </div>
@@ -38,10 +38,8 @@ import BaseHeader from '@/components/headers/BaseHeader.vue';
 <style scoped>
 .about-me-container {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
-  text-align: center;
   margin-top: 120px;
 
   section {
@@ -60,18 +58,13 @@ import BaseHeader from '@/components/headers/BaseHeader.vue';
     }
 
     .text-container {
-      width: 455px;
-      height: 479px;
-      text-align: left;
       position: relative;
 
       .about-me-text {
         width: 455px;
-        height: 247px;
 
         .description {
           font-family: 'Montserrat';
-          text-align: left;
           margin: 0 0 10px;
         }
       }

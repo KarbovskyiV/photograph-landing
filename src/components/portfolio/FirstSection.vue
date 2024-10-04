@@ -41,7 +41,6 @@
 <style scoped>
 section {
   margin-top: 48px;
-  width: 1128px;
 
   .body-head {
     font-family: 'Montserrat';
@@ -61,7 +60,6 @@ section {
     .left-image-container {
       grid-row: 1 / 3;
       width: 455px;
-      height: 907px;
 
       .left-img {
         width: 100%;
@@ -71,9 +69,6 @@ section {
     }
 
     .top-right-image-container {
-      grid-column: 2;
-      grid-row: 1;
-      width: 649px;
       height: 413px;
 
       .top-right-img {
@@ -84,11 +79,9 @@ section {
     }
 
     .bottom-right-image-container {
-      grid-column: 2;
       grid-row: 2;
       display: flex;
       gap: 25px;
-      width: 100%;
 
       .bottom-right-img {
         width: 360px;
@@ -99,8 +92,6 @@ section {
       .bottom-right-text {
         font-family: 'Montserrat';
         max-width: 264px;
-        max-height: 213px;
-        text-align: left;
       }
     }
   }

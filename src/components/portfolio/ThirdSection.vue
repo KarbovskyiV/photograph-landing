@@ -36,7 +36,6 @@
 <style scoped>
 section {
   margin-top: 48px;
-  width: 1128px;
 
   .body-head {
     font-family: 'Montserrat';
@@ -56,7 +55,6 @@ section {
     .left-image-container {
       grid-row: 1 / 3;
       width: 456px;
-      height: 907px;
 
       .left-img {
         width: 100%;
@@ -66,8 +64,6 @@ section {
     }
 
     .top-right-image-container {
-      grid-column: 2;
-      grid-row: 1;
       width: 360px;
       height: 413px;
       justify-self: end;
@@ -80,15 +76,15 @@ section {
     }
 
     .bottom-right-image-container {
-      grid-column: 2;
       grid-row: 2;
       display: flex;
       gap: 25px;
-      width: 100%;
+      width: 648px;
+      height: 470px;
 
       .bottom-right-img {
-        width: 648px;
-        height: 470px;
+        width: 100%;
+        height: 100%;
         object-fit: cover;
       }
     }

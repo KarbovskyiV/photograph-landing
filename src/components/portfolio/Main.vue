@@ -17,10 +17,8 @@ import ThirdSection from '@/components/portfolio/ThirdSection.vue';
 <style scoped>
 .portfolio-container {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
-  text-align: center;
   margin-top: 120px;
 }
 </style>
