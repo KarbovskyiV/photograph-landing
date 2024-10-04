@@ -46,8 +46,6 @@ section {
 
   .body-right {
     font-family: 'Montserrat';
-    font-size: 16px;
-    line-height: 24px;
   }
 
   .grid-container {

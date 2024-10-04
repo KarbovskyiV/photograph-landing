@@ -51,8 +51,6 @@ section {
 
   .body-right {
     font-family: 'Montserrat';
-    font-size: 16px;
-    line-height: 24px;
   }
 
   .grid-container {
@@ -100,8 +98,6 @@ section {
 
       .bottom-right-text {
         font-family: 'Montserrat';
-        font-size: 16px;
-        line-height: 24px;
         max-width: 264px;
         max-height: 213px;
         text-align: left;

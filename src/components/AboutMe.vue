@@ -71,9 +71,6 @@ import BaseHeader from '@/components/headers/BaseHeader.vue';
 
         .description {
           font-family: 'Montserrat';
-          font-size: 16px;
-          font-weight: 400;
-          line-height: 24px;
           text-align: left;
           margin: 0 0 10px;
         }
