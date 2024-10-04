@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="section-1">
+    <section>
       <div class="d-flex justify-content-between">
         <span class="body-head">PORTRAITS</span>
         <span class="body-right">Make magical dreams come true</span>
@@ -8,13 +8,13 @@
 
       <div class="grid-container">
         <div class="left-image-container">
-          <img class="left-img" src="../../assets/portfolio/left-img.png" alt="Left image" />
+          <img class="left-img" src="../../assets/portfolio/firstSection/left-img.png" alt="Left image" />
         </div>
 
         <div class="top-right-image-container">
           <img
             class="top-right-img"
-            src="../../assets/portfolio/top-right-img.png"
+            src="../../assets/portfolio/firstSection/top-right-img.png"
             alt="Top right image"
           />
         </div>
@@ -22,7 +22,7 @@
         <div class="bottom-right-image-container">
           <img
             class="bottom-right-img"
-            src="../../assets/portfolio/bottom-right-img.png"
+            src="../../assets/portfolio/firstSection/bottom-right-img.png"
             alt="Bottom right image"
           />
           <div class="bottom-right-text">
@@ -39,10 +39,9 @@
 <script setup></script>
 
 <style scoped>
-.section-1 {
+section {
   margin-top: 48px;
   width: 1128px;
-  height: 1132px;
 
   .body-head {
     font-family: 'Montserrat';
