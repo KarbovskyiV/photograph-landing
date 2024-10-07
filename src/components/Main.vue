@@ -19,13 +19,15 @@
       <img class="flowers-img" src="../assets/header/flowers.png" alt="Flowers" />
       <div @mouseover="hovering = true" @mouseleave="hovering = false" class="view-button">
         <Subtract v-if="hovering" />
-        <span class="view-text" :style="{ padding: hovering ? '0 6px' : '0' }">View portfolio</span>
+        <span @click="scrollToPortfolio" class="view-text" :style="{ padding: hovering ? '0 6px' : '0' }"
+          >View portfolio</span
+        >
         <Subtract v-if="hovering" />
       </div>
     </div>
 
     <AboutMe />
-    <Portfolio />
+    <Portfolio id="portfolio-section" />
     <Services />
   </div>
 </template>
@@ -39,6 +41,13 @@ import Subtract from '@/components/icons/Subtract.vue';
 import { ref } from 'vue';
 
 const hovering = ref(false);
+
+const scrollToPortfolio = () => {
+  const portfolioSection = document.getElementById('portfolio-section');
+  if (portfolioSection) {
+    portfolioSection.scrollIntoView({ behavior: 'smooth' });
+  }
+};
 </script>
 
 <style scoped>
