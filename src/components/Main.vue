@@ -17,8 +17,10 @@
       </div>
 
       <img class="flowers-img" src="../assets/header/flowers.png" alt="Flowers" />
-      <div class="view-button">
-        <span class="view-text">View portfolio</span>
+      <div @mouseover="hovering = true" @mouseleave="hovering = false" class="view-button">
+        <Subtract v-if="hovering" />
+        <span class="view-text" :style="{ padding: hovering ? '0 6px' : '0' }">View portfolio</span>
+        <Subtract v-if="hovering" />
       </div>
     </div>
 
@@ -33,6 +35,10 @@ import AboutMe from '@/components/aboutMe/AboutMe.vue';
 import Header from './Header.vue';
 import Portfolio from './portfolio/Main.vue';
 import Services from '@/components/services/Services.vue';
+import Subtract from '@/components/icons/Subtract.vue';
+import { ref } from 'vue';
+
+const hovering = ref(false);
 </script>
 
 <style scoped>

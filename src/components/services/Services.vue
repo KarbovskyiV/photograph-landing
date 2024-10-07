@@ -137,8 +137,15 @@
       <div class="image-container" :style="{ marginTop: `${219 + dropdownHeight}px` }">
         <img class="image-cover" src="../../assets/services/orange-peony.png" alt="Orange peony" />
       </div>
-      <div class="view-button" :style="{ marginTop: `${212 + dropdownHeight}px` }">
-        <span class="view-text">Order a photo shoot</span>
+      <div
+        class="view-button"
+        :style="{ marginTop: `${212 + dropdownHeight}px` }"
+        @mouseover="hovering = true"
+        @mouseleave="hovering = false"
+      >
+        <Subtract v-if="hovering" />
+        <span class="view-text" :style="{ padding: hovering ? '0 6px' : '0' }">Order a photo shoot</span>
+        <Subtract v-if="hovering" />
       </div>
     </section>
   </div>
@@ -180,6 +187,8 @@ const toggleDropdown = (id) => {
     });
   }
 };
+
+const hovering = ref(false);
 </script>
 
 <style scoped>
@@ -270,6 +279,7 @@ const toggleDropdown = (id) => {
 
       .view-text {
         font-family: 'Montserrat';
+        padding: 0 6px;
       }
     }
   }
