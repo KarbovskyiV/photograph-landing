@@ -29,6 +29,7 @@
     <AboutMe />
     <Portfolio id="portfolio-section" />
     <Services />
+    <Reviews />
   </div>
 </template>
 
@@ -39,6 +40,7 @@ import Portfolio from './portfolio/Main.vue';
 import Services from '@/components/services/Services.vue';
 import Subtract from '@/components/icons/Subtract.vue';
 import { ref } from 'vue';
+import Reviews from '@/components/reviews/Reviews.vue';
 
 const hovering = ref(false);
 

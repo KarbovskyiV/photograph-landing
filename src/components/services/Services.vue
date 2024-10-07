@@ -216,7 +216,6 @@ const hovering = ref(false);
       max-width: 1130px;
 
       /* Transition styles */
-
       .dropdown-enter-from,
       .dropdown-leave-to {
         opacity: 0;
