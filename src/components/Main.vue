@@ -24,13 +24,15 @@
 
     <AboutMe />
     <Portfolio />
+    <Services />
   </div>
 </template>
 
 <script setup>
+import AboutMe from '@/components/aboutMe/AboutMe.vue';
 import Header from './Header.vue';
-import AboutMe from './AboutMe.vue';
 import Portfolio from './portfolio/Main.vue';
+import Services from '@/components/services/Services.vue';
 </script>
 
 <style scoped>
