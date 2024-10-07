@@ -4,7 +4,7 @@
 
     <section class="d-flex">
       <div class="image-container">
-        <img class="image-cover" src="../assets/aboutMe/about-me.png" alt="Image" />
+        <img class="image-cover" src="../../assets/aboutMe/about-me.png" alt="Image" />
       </div>
       <div class="text-container">
         <div class="about-me-text">
@@ -20,7 +20,7 @@
           <p class="description">Prepare to be enchanted, for your story awaits to be unveiled.</p>
         </div>
         <div class="image-container-second">
-          <img class="image-cover" src="../assets/aboutMe/half-open-red-peony.png" alt="Half open red peony" />
+          <img class="image-cover" src="../../assets/aboutMe/half-open-red-peony.png" alt="Half open red peony" />
         </div>
       </div>
     </section>
