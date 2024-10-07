@@ -23,8 +23,9 @@
       <div class="reviews-text">
         <p class="title">Sarah & David</p>
         <span class="description">
-          The photos are beautiful and tell our story asdsaddassad made us feel comfortable and relaxed, al
-          asdsadasdasdads selves to shine through.
+          The photos are beautiful and tell our story. Made us feel comfortable and relaxed, allowing our true selves to
+          shine through. Victoria's professionalism and creativity made the entire experience unforgettable. The final
+          images exceeded our expectations and will be treasured for years to come.
         </span>
       </div>
     </section>
