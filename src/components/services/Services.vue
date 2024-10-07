@@ -12,7 +12,7 @@
             @click.prevent="toggleDropdown(1)"
           >
             <span class="title">Portraits</span>
-            <span class="plus-sign">{{ isOpen(1) ? '-' : '+' }}</span>
+            <span class="math-sign">{{ isOpen(1) ? '-' : '+' }}</span>
           </a>
           <div v-if="isOpen(1)" class="dropdown-content" id="dropdown-1">
             <p>STANDARD PERSONAL PORTRAIT: $250</p>
@@ -55,7 +55,7 @@
             @click.prevent="toggleDropdown(2)"
           >
             <span class="title">Personal</span>
-            <span class="plus-sign">{{ isOpen(2) ? '-' : '+' }}</span>
+            <span class="math-sign">{{ isOpen(2) ? '-' : '+' }}</span>
           </a>
           <div v-if="isOpen(2)" class="dropdown-content" id="dropdown-2">
             <p>STANDARD PERSONAL PORTRAIT: $250</p>
@@ -98,7 +98,7 @@
             @click.prevent="toggleDropdown(3)"
           >
             <span class="title">Love</span>
-            <span class="plus-sign">{{ isOpen(3) ? '-' : '+' }}</span>
+            <span class="math-sign">{{ isOpen(3) ? '-' : '+' }}</span>
           </a>
           <div v-if="isOpen(3)" class="dropdown-content" id="dropdown-3">
             <p>STANDARD PERSONAL PORTRAIT: $250</p>
@@ -202,9 +202,7 @@ const hovering = ref(false);
 
   section {
     margin-top: 60px;
-    width: 100%;
     display: flex;
-    align-items: flex-start;
     max-width: 1130px;
 
     .dropdown-menu {
@@ -212,7 +210,6 @@ const hovering = ref(false);
       flex-direction: column;
       padding: 0;
       background-color: #0c1813;
-      border-radius: 2px;
       width: 100%;
       max-width: 1130px;
 
@@ -228,7 +225,7 @@ const hovering = ref(false);
           color: #e5e1d2;
         }
 
-        .plus-sign {
+        .math-sign {
           font-size: 18px;
           color: #e5e1d2;
         }
@@ -237,13 +234,11 @@ const hovering = ref(false);
         &:focus,
         &:active {
           background-color: #0c1813;
-          color: #e5e1d2;
         }
       }
 
       .dropdown-content {
         padding: 0 0 32px 8px;
-        background-color: #0c1813;
         color: #e5e1d2;
         font-family: 'Montserrat';
 
@@ -279,7 +274,6 @@ const hovering = ref(false);
 
       .view-text {
         font-family: 'Montserrat';
-        padding: 0 6px;
       }
     }
   }
