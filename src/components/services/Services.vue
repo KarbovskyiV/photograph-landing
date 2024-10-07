@@ -14,38 +14,40 @@
             <span class="title">Portraits</span>
             <span class="math-sign">{{ isOpen(1) ? '-' : '+' }}</span>
           </a>
-          <div v-if="isOpen(1)" class="dropdown-content" id="dropdown-1">
-            <p>STANDARD PERSONAL PORTRAIT: $250</p>
-            <ul>
-              <li>
-                <Subtract />
-                1-hour session
-              </li>
-              <li>
-                <Subtract />
-                One location
-              </li>
-              <li>
-                <Subtract />
-                20 professionally edited images
-              </li>
-            </ul>
-            <p class="mt-3">STANDARD PERSONAL PORTRAIT: $250</p>
-            <ul>
-              <li>
-                <Subtract />
-                2-hour session
-              </li>
-              <li>
-                <Subtract />
-                Multiple locations or outfit changes
-              </li>
-              <li>
-                <Subtract />
-                40 professionally edited images
-              </li>
-            </ul>
-          </div>
+          <Transition name="dropdown">
+            <div v-if="isOpen(1)" class="dropdown-content" id="dropdown-1">
+              <p>STANDARD PERSONAL PORTRAIT: $250</p>
+              <ul>
+                <li>
+                  <Subtract />
+                  1-hour session
+                </li>
+                <li>
+                  <Subtract />
+                  One location
+                </li>
+                <li>
+                  <Subtract />
+                  20 professionally edited images
+                </li>
+              </ul>
+              <p class="mt-3">STANDARD PERSONAL PORTRAIT: $250</p>
+              <ul>
+                <li>
+                  <Subtract />
+                  2-hour session
+                </li>
+                <li>
+                  <Subtract />
+                  Multiple locations or outfit changes
+                </li>
+                <li>
+                  <Subtract />
+                  40 professionally edited images
+                </li>
+              </ul>
+            </div>
+          </Transition>
         </li>
         <li>
           <a
@@ -213,6 +215,23 @@ const hovering = ref(false);
       width: 100%;
       max-width: 1130px;
 
+      /* Transition styles */
+
+      .dropdown-enter-from,
+      .dropdown-leave-to {
+        opacity: 0;
+      }
+
+      .dropdown-enter-active,
+      .dropdown-leave-active {
+        transition: opacity 1s ease-out;
+      }
+
+      .dropdown-enter-to,
+      .dropdown-leave-from {
+        opacity: 1;
+      }
+
       .dropdown-item {
         display: flex;
         justify-content: space-between;
@@ -241,6 +260,7 @@ const hovering = ref(false);
         padding: 0 0 32px 8px;
         color: #e5e1d2;
         font-family: 'Montserrat';
+        height: auto;
 
         ul {
           padding-left: 8px;
