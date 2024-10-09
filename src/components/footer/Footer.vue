@@ -12,15 +12,9 @@
       </div>
 
       <div class="footer-contacts">
-        <div>
-          <i class="bi bi-envelope"></i><span>emailemail@gmail.com</span>
-        </div>
-        <div>
-          <i class="bi bi-telephone"></i><span>+380951234567</span>
-        </div>
-        <div>
-          <i class="bi bi-geo-alt"></i><span>Kyiv</span>
-        </div>
+        <div><i class="bi bi-envelope"></i><span>emailemail@gmail.com</span></div>
+        <div><i class="bi bi-telephone"></i><span>+380951234567</span></div>
+        <div><i class="bi bi-geo-alt"></i><span>Kyiv</span></div>
       </div>
     </div>
 
@@ -37,7 +31,7 @@
   max-width: 1440px;
   width: 100%;
   background-color: #b7b597;
-  color: #0C1813;
+  color: #0c1813;
   font-family: 'Montserrat';
 
   .footer-center {
