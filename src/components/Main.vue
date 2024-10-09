@@ -25,6 +25,7 @@
     <Services />
     <Reviews />
     <GetInTouchWithMe />
+    <Footer />
   </div>
 </template>
 
@@ -36,6 +37,7 @@ import Services from '@/components/services/Services.vue';
 import Reviews from '@/components/reviews/Reviews.vue';
 import GetInTouchWithMe from '@/components/getInTouchWithMe/GetInTouchWithMe.vue';
 import ButtonWithHover from '@/components/buttons/ButtonWithHover.vue';
+import Footer from '@/components/footer/Footer.vue';
 </script>
 
 <style scoped>
