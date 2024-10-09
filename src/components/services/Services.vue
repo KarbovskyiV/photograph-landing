@@ -139,16 +139,8 @@
       <div class="image-container" :style="{ marginTop: `${219 + dropdownHeight}px` }">
         <img class="image-cover" src="../../assets/services/orange-peony.png" alt="Orange peony" />
       </div>
-      <div
-        class="view-button"
-        :style="{ marginTop: `${212 + dropdownHeight}px` }"
-        @mouseover="hovering = true"
-        @mouseleave="hovering = false"
-      >
-        <Subtract v-if="hovering" />
-        <span class="view-text" :style="{ padding: hovering ? '0 6px' : '0' }">Order a photo shoot</span>
-        <Subtract v-if="hovering" />
-      </div>
+
+      <ButtonWithHover name="Order a photo shoot" margin-top="212" margin-left="690" />
     </section>
   </div>
 </template>
@@ -157,6 +149,7 @@
 import BaseHeader from '@/components/headers/BaseHeader.vue';
 import { nextTick, ref } from 'vue';
 import Subtract from '@/components/icons/Subtract.vue';
+import ButtonWithHover from '@/components/buttons/ButtonWithHover.vue';
 
 const openDropdown = ref(null);
 
@@ -189,8 +182,6 @@ const toggleDropdown = (id) => {
     });
   }
 };
-
-const hovering = ref(false);
 </script>
 
 <style scoped>
@@ -279,21 +270,6 @@ const hovering = ref(false);
     .image-container {
       width: 184px;
       height: 169px;
-    }
-
-    .view-button {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-left: 690px;
-      width: 256px;
-      height: 56px;
-      border: 1px solid #e5e1d2;
-      cursor: pointer;
-
-      .view-text {
-        font-family: 'Montserrat';
-      }
     }
   }
 }
